@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.loadingPanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bigBg_png" x="0" y="0" visible="false"/>
+    <e:Image source="LOGO_png" x="312.5" y="230"/>
+	<e:Image source="loadingBar.pngBg_png" x="182.5" y="482.31"/>
+	<e:Group id="gro" width="0" height="36.36" x="182.5" y="482.15" scrollEnabled="true">
+		<e:Image source="loadingBar_png" x="0" y="-0.3599999999999568" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Label text="努力加载中…" x="499.74" y="447.23" strokeColor="0x320000" stroke="3" bold="true" size="25"/>
+	<e:Label id="present" text="0%" x="913.68" y="447.23" strokeColor="0x320000" stroke="3" bold="true" size="25"/>
+</e:Skin>

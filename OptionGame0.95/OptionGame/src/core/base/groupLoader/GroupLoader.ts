@@ -1,0 +1,4 @@
+class GroupLoader {
+	public constructor() {
+	}
+}

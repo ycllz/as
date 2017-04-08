@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.informationPanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="blackBg_png" x="0" y="0" width="1136" height="640" locked="true" visible="false"/>
+	<e:Image source="loadingPanel_png" x="296" y="129.5" locked="true"/>
+	<e:Image id="btn" source="btn_playGame_png" x="302.9" y="430.8" locked="true"/>
+	<e:Image id="btn0" source="0_png" x="318.03" y="312.41" locked="true"/>
+	<e:Image id="btn1" source="1_png" x="401.03" y="312.41" locked="true"/>
+	<e:Image id="btn2" source="2_png" x="484.03" y="312.41" locked="true"/>
+	<e:Image id="btn3" source="3_png" x="565.93" y="312.41" locked="true"/>
+	<e:Image id="btn4" source="4_png" x="648.93" y="312.41" locked="true"/>
+	<e:Image id="btn5" source="5_png" x="731.93" y="312.41" locked="true"/>
+	<e:Image id="btn6" source="6_png" x="318.03" y="365.41" locked="true"/>
+	<e:Image id="btn7" source="7_png" x="401.03" y="365.41" locked="true"/>
+	<e:Image id="btn8" source="8_png" x="484.03" y="365.41" locked="true"/>
+	<e:Image id="btn9" source="9_png" x="567.03" y="365.41" locked="true"/>
+	<e:Image id="btn10" source="10_png" x="650.03" y="365.41" locked="true"/>
+	<e:Image id="btn11" source="11_png" x="733.03" y="365.41" locked="true"/>
+    <e:EditableText width="340.42" height="34.67" text="" x="328.86" y="260.09" anchorOffsetX="0" anchorOffsetY="0" textColor="0xfdebc3" prompt="点击输入邀请口令" textAlign="left" promptColor="0xfdebc3" maxChars="7" size="22" verticalAlign="middle"/>
+</e:Skin>

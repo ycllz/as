@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.shopResultSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="blackBg_png" x="0" y="0" width="1136" height="640" locked="true" visible="false"/>
+	<e:Image x="298" y="152" source="tishiPanel_png" locked="true"/>
+	<e:Image id="btn" x="304" y="407.81" source="btn_goumai_png" locked="true"/>
+	<e:Image id="btn_close" source="btn_close_png" x="777.48" y="159.6" locked="true"/>
+    <e:Label id="cont1" text="是否花费30元购买" x="273.36" y="292.54" anchorOffsetY="0" height="27.46" anchorOffsetX="0" width="341.64" textAlign="right" size="20" strokeColor="0x3a240c" stroke="2" textColor="0xfff6bc" lineSpacing="8"/>
+	<e:Label id="cont2" text="6000?" x="657.86" y="292.54" anchorOffsetY="0" height="27.46" anchorOffsetX="0" width="164.64" textAlign="left" size="20" strokeColor="0x3A240C" stroke="2" textColor="0xFFF6BC" lineSpacing="8"/>
+	<e:Image id="buyTypeIco" source="zuanshi_png" x="620.36" y="286.02" anchorOffsetX="0" width="32.5" anchorOffsetY="0" height="32.5"/>
+	<e:Image source="tishi_png" x="539.5" y="172"/>
+</e:Skin>

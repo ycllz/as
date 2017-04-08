@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.carPanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="blackBg_png" x="0" y="0" width="1136" height="640" locked="true" visible="false"/>
+	<e:Image source="carRentalPanelBg_png" x="121" y="36.17" width="894" scale9Grid="30,100,30,100" locked="true"/>
+	<e:Scroller width="860" height="348" x="138" y="143.04" anchorOffsetY="0" locked="true">
+		<e:Group id="content" width="860" x="5.5" y="-120.36" anchorOffsetY="0" height="359">
+		</e:Group>
+	</e:Scroller>
+	<e:Image id="btn_close" source="btn_close_png" x="961.33" y="44.01" locked="true"/>
+	<e:Label text="欢迎来到租车行，您可以在这里购买更多的车辆来拓展业务，获得更多的收益！" x="226.34" y="598.65" strokeColor="0x000000" stroke="2" size="20" bold="true" textColor="0x29fffc"/>
+	<e:Image id="btn_buy" x="402.34" y="499.96" source="btn_buyCar_png"/>
+	<e:Label text="12" x="249.65" y="509.82" strokeColor="0x41210b" stroke="2" size="20" anchorOffsetX="0" width="156.5" textAlign="left" textColor="0xffffff"/>
+	<e:Label text="999,999" x="268.64" y="539.48" strokeColor="0x41210b" stroke="2" textColor="0xFFFFFF" size="20" anchorOffsetX="0" width="133.5" textAlign="left"/>
+</e:Skin>

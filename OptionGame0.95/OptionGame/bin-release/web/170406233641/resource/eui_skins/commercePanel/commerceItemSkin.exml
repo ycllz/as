@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.commerceItemSkin" width="779" height="66" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="commerceBotton_png" x="0" y="64" locked="true"/>
+	<e:Image source="img_rolebg1_png" x="7.69" y="5.16" anchorOffsetX="0" width="55.67" anchorOffsetY="0" height="55.67"/>
+	<e:Image id="vipIco" source="Vip1_png" x="77.34" y="37.49"/>
+	<e:Label id="peopleName" text="美女小主播" x="77.34" y="9.65" size="20" strokeColor="0x543d23" stroke="2" anchorOffsetX="0" width="142.67" textAlign="left"/>
+	<e:Label id="peopleNum" text="100" x="229.69" y="23" size="20" strokeColor="0x543D23" stroke="2" anchorOffsetX="0" width="81.84" textAlign="center"/>
+	<e:Label id="bonusPersent" text="6%" x="331.17" y="23" size="20" strokeColor="0x543D23" stroke="2" anchorOffsetX="0" width="58.5" textAlign="center"/>
+	<e:Label id="tradeNum" text="588万" x="422.5" y="23" size="20" strokeColor="0x543D23" stroke="2" anchorOffsetX="0" width="86.5" textAlign="center"/>
+	<e:Label id="bonus" text="500.000" x="546.17" y="23" size="20" strokeColor="0x543d23" stroke="2" anchorOffsetX="0" width="107.17" textAlign="center" textColor="0xffe400"/>
+	<e:Label id="time" text="在线" x="671.17" y="23" size="20" strokeColor="0x543d23" stroke="2" anchorOffsetX="0" width="107.17" textAlign="center" textColor="0xa9f12b"/>
+</e:Skin>

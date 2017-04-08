@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.applyPanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="blackBg_png" x="0" y="0" width="1136" height="640" locked="true" visible="false"/>
+	<e:Image source="commerceBg1_png" x="198" y="66.5" locked="true"/>
+	<e:Image id="btn_close" source="btn_close_png" x="878.94" y="71.05" locked="true"/>
+	<e:Image id="btn" source="btn_shenqing_png" x="304" y="494.38" locked="true"/>
+	<e:Label text="商会介绍" x="524" y="140.19" textColor="0x83532c" size="22"/>
+	<e:Label text="       商会介绍文字预留，商会介绍文字预留，商会介绍文字预留，商会介 绍文字预留，商会介绍文字预留，商会介绍文字预留，商会介绍文字预留， 商会介绍文字预留!           \n\n        商会介绍文字预留!  \n\n        商会介绍文字预留，商会介绍文字预留，商会介绍文字预留，商会介 绍文字预留." x="217.91" y="184.96" anchorOffsetX="0" width="690.67" anchorOffsetY="0" height="296.67" size="20" textColor="0x83532c" lineSpacing="3"/>
+</e:Skin>

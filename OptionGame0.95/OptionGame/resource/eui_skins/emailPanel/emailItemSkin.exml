@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.emailItemSkin" width="739" height="98" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" source="emailItemBg_0_png" x="0" y="0"/>
+    <e:Label id="title" text="租车行购车竞拍成功！" x="95.54" y="18.5" textColor="0xffffff" strokeColor="0x320000" stroke="2" size="22" anchorOffsetX="0" width="293.6" textAlign="left"/>
+	<e:Label id="time" text="2017/3/22 18:30" x="95.54" y="62.5" textColor="0x320000" strokeColor="0x320000" size="18" anchorOffsetX="0" width="293.6" textAlign="left"/>
+	<e:Image id="btn_watch" source="btn_watch_png" x="599" y="24.5"/>
+</e:Skin>

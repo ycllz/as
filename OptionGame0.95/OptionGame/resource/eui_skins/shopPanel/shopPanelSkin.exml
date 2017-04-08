@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.shopPanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15ae98c6eae"/>
+	<e:Image source="blackBg_png" x="0" y="0" width="1136" height="640" visible="false"/>
+	<e:Image source="shopPanel_png" x="114" y="58.5"/>
+	<e:Image id="tab0" x="123.12" y="121.48" source="tabDiamond_1_png"/>
+	<e:Image id="tab1" x="123.12" y="323.03" source="tabGlod_0_png"/>
+	<e:Image id="btn_close" source="btn_close_png" x="973.56" y="55.46"/>
+	<e:Image source="shop_title_png" x="421.3" y="41.46"/>
+	<e:Group id="content" width="753.03" height="419.7" x="234.73" y="125" anchorOffsetX="0" anchorOffsetY="0">
+	</e:Group>
+</e:Skin>

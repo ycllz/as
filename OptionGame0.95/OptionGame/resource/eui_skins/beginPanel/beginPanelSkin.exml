@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.beginPanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bigBg_png" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<e:Image source="LOGO_png" x="312.5" y="230"/>
+	<e:Image id="btn_qq" source="btn_qq_png" x="584.77" y="445.65"/>
+	<e:Image id="btn_weixin" source="btn_weixin_png" x="290.6" y="445.65"/>
+</e:Skin>

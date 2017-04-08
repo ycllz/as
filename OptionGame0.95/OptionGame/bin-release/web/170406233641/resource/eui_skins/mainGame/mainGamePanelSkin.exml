@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.mainGamePanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="15ae15a85e5"/>
+	<e:Image id="bg" source="mainBg_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="img_moneytxtbg_png" x="284" y="18.02"/>
+	<e:Image source="img_moneytxtbg_png" x="537" y="18.02"/>
+	<e:Image source="gold_png" x="297.66" y="18.02" anchorOffsetX="0" width="36" anchorOffsetY="0" height="36"/>
+	<e:Image source="zuanshi_png" x="549.33" y="18.02" anchorOffsetX="0" width="36" anchorOffsetY="0" height="36"/>
+	<e:Image source="img_expbg_png" x="81.03" y="72"/>
+	<e:Label id="txtplayerDiamon" text="999999" x="587.79" y="25.52" size="20" height="25" width="169" anchorOffsetX="0" verticalAlign="middle" stroke="2" strokeColor="0x060e1b"/>
+	<e:Label id="playerGold" text="99999" x="334.66" y="25.85" width="133" height="25" size="20" anchorOffsetX="0" verticalAlign="middle" stroke="2" strokeColor="0x060e1b"/>>
+	<e:Group id="mainLayer" horizontalCenter="-0.5" verticalCenter="-57">
+		<e:Image source="img_tradetypebg_png" x="0" y="143.45999999999998"/>
+		<e:Image source="img_banerbg_png" x="228.82999999999996" y="106.64999999999999" anchorOffsetX="0" width="629.33" anchorOffsetY="0" height="373" scale9Grid="27,28,47,302"/>
+		<e:Image source="img_baner_png" x="453.45000000000005" y="119.52"/>
+		<e:Image source="img_girl_png" x="238.84" y="89.43999999999998"/>
+		<e:Image source="img_tradetypebg_png" x="886.17" y="143.45999999999998"/>
+		<e:Button id="btnShop" label="" x="888.17" y="0" enabled="true">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="icon_shop_png" source.down="icon_shop_png" source.disabled="icon_shop_png" width.down="95%" height.down="95%" left.down="0" top.down="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btnStartTrade" label="开始交易" x="443.15" y="386.83000000000004">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_starttrade_png" source.down="btn_starttrade_png" source.disabled="btn_starttrade_png" width.down="97%" height.down="95%"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:CheckBox id="btnGoldTrade" label="" x="15" y="210.10000000000002">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="img_tradetypegole_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="img_tradetypeselete_png" includeIn="down" x="0" y="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:CheckBox>
+		<e:CheckBox id="btnDiamonTrade" label="" x="15" y="334.33000000000004">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="img_tradetypediamon_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="img_tradetypediamon_png" includeIn="down" x="0" y="0"/>
+				<e:Image source="img_tradetypeselete_png" includeIn="down" x="0" y="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:CheckBox>
+		<ns1:SymbolItem id="sym1" width="180" height="72" x="904.16" y="190.60000000000002"/>
+		<ns1:SymbolItem id="sym2" width="180" height="72" x="904.16" y="280.48"/>
+		<ns1:SymbolItem id="sym3" width="180" height="72" x="904.16" y="370.33000000000004"/>
+		<e:Image source="danqianjiaoyihuobi_png" x="42.52" y="158.13"/>
+		<e:Image source="huowubaojia_png" x="949.17" y="154.79"/>
+	</e:Group>
+	<e:Group x="468.99" y="23.019999999999996" anchorOffsetY="0" height="31">
+		<e:Button id="btn_addgold" label="" x="0" y="0" enabled="true" anchorOffsetX="0" width="41" anchorOffsetY="0" height="31">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_add_png" source.down="btn_add_png" source.disabled="btn_add_png" width.down="94%" height.down="95%"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="btn_adddiamon" label="" x="251.79999999999995" y="0.480000000000004" enabled="true" width="41" height="31">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_add_png" source.down="btn_add_png" source.disabled="btn_add_png" width.down="95%" height.down="95%"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Image source="img_rolebg0_png" x="0" y="9.5"/>
+	<e:Image id="head" source="img_rolebg1_png" x="0" y="10" touchEnabled="true"/>
+	<e:Image id="imgExpBar" source="img_expbar_png" x="82.67" y="73.66"/>
+	<e:Label id="txtPlayerName" text="美女小主播" x="93" y="26.68" anchorOffsetX="0" width="170" size="20" touchEnabled="true" stroke="2" strokeColor="0x4b1a04"/>
+	<e:Label id="lv" text="Lv.16" x="93" y="56" size="16" anchorOffsetX="0" width="61.5" anchorOffsetY="0" height="15" textColor="0xfff10b" stroke="2" strokeColor="0x2e1003"/>
+	<e:Label id="exp" text="2550/33000" x="154.5" y="56" size="16" anchorOffsetX="0" width="97" anchorOffsetY="0" height="15" textAlign="right" stroke="2" strokeColor="0x2e1003"/>
+	<e:Group width="538.67" height="121.33" anchorOffsetX="0" horizontalCenter="-7.5" bottom="7" anchorOffsetY="0">
+		<e:Image source="icon_shadow_png" x="24.659999999999968" y="86.33000000000015" scaleX="1" scaleY="1"/>
+		<e:Image source="icon_shadow_png" x="130.49" y="86.33000000000015" scaleX="1" scaleY="1"/>
+		<e:Image source="icon_shadow_png" x="229.33000000000004" y="86.33000000000015" scaleX="1" scaleY="1"/>
+		<e:Image source="icon_shadow_png" x="335.78999999999996" y="86.33000000000015" scaleX="1" scaleY="1"/>
+		<e:Image source="icon_shadow_png" x="436.5" y="86.33000000000015" scaleX="1" scaleY="1"/>
+		<e:Button id="btn_1" label="" x="23.600000000000023" y="22.330000000000155" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_1_png" source.down="btn_1_png" source.disabled="btn_1_png" width.down="95%" height.down="95%"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_2" label="" x="126.20999999999992" y="22.330000000000155" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_2_png" source.down="btn_2_png" source.disabled="btn_2_png" width.down="95%" height.down="95%"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_3" label="" x="228.83000000000004" y="22.330000000000155" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_3_png" source.down="btn_3_png" source.disabled="btn_3_png" width.down="95%" height.down="95%"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_4" label="" x="330.74" y="22.330000000000155" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_4_png" source.down="btn_4_png" source.disabled="btn_4_png" width.down="95%" height.down="95%"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_5" label="" x="433.19000000000005" y="22.330000000000155" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_5_png" source.down="btn_5_png" source.disabled="btn_5_png" width.down="95%" height.down="95%"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

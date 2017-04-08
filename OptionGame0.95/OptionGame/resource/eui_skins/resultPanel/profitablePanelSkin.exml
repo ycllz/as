@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.profitablePanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*"  states="open" >
+	<w:Declarations>
+		<tween:TweenGroup id="initMovie">
+			<tween:TweenItem target="{halo1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object rotation="{0}" scaleY="{0.5}" scaleX="{0.5}" alpha="{0.3}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object alpha="{0.51}" scaleY="{0.65}" scaleX="{0.65}" rotation="{45}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object alpha="{0.72}" scaleY="{0.8}" scaleX="{0.8}" rotation="{90}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object alpha="{1}" scaleY="{1}" scaleX="{1}" rotation="{135}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object rotation="{180}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object rotation="{225}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object rotation="{270}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{panelBg}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.3}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{star}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.2}" scaleY="{0.2}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="50"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="50"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="50"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="50"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="50"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="50"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{goldIco}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{182.02}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object y="{91.72}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{text1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.2}" scaleY="{0.2}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="750">
+					<tween:props>
+						<e:Object scaleY="{1}" scaleX="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{halo0}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.3}" scaleY="{0.3}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object scaleX="{0.4}" scaleY="{0.4}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object scaleX="{0.6}" scaleY="{0.6}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{text0}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.2}" scaleY="{0.2}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="750">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image source="blackBg_png" x="0" y="0" width="1136" height="640" touchEnabled="false" locked="true"/>
+	<e:Image id="btn" source="btn_queren_png" x="465" y="464.5" touchEnabled="true" locked="true"/>
+	<e:Image id="halo0" source="resultBg1_png" x="564" y="200.91" anchorOffsetX="297" anchorOffsetY="225" locked="true"/>
+	<e:Image id="halo1" x="568.5" y="289.2" touchEnabled="false" anchorOffsetX="298" anchorOffsetY="296" source="resultBg_png" locked="true"/>
+	<e:Image id="panelBg" source="xianshiBg_png" x="575.6" y="352.5" touchEnabled="false" anchorOffsetX="379" anchorOffsetY="111" locked="true"/>
+	<e:Image id="goldIco" source="yiduijinbi_png" x="487.48" y="88.08" touchEnabled="false"/>
+	<e:Image id="textBg" source="huoliBotton_png" x="568" y="232.12" touchEnabled="false" anchorOffsetX="267" anchorOffsetY="67" locked="true"/>
+	<e:Image id="star" source="star1_png" x="579.7" y="134.58" touchEnabled="false" anchorOffsetX="145" anchorOffsetY="38" locked="true"/>
+	<e:Image source="round_ico_gold_png" x="519" y="303.68" touchEnabled="false" locked="true"/>
+	<e:Image id="text0" source="touzishibai_png" x="571.44" y="239.02" anchorOffsetX="183" anchorOffsetY="52" locked="true"/>
+	<e:Image id="text1" source="gongxihuoli_png" x="568" y="239.02" anchorOffsetY="60" anchorOffsetX="110" locked="true"/>
+	<e:Label id="priceText" text="370.000" x="453.83" y="412.91" textColor="0xfff000" size="24" anchorOffsetX="0" width="228.34" textAlign="center" strokeColor="0x261300" stroke="2" locked="true"/>
+	<e:Label id="contText" text="连本带利收益" x="453.83" y="267.2" size="24" anchorOffsetX="0" width="228.34" textAlign="center" strokeColor="0x261300" stroke="2" textColor="0xffffff" locked="true"/>
+	<e:Image id="smallStar" source="smallStar_png" x="343.36" y="109.48" locked="true"/>
+</e:Skin>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.tradeSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="img_tradebg_png" x="102" y="108" locked="true"/>
+	<e:Image source="img_tradebg0_png" x="65.97" y="561.29" locked="true"/>
+	<e:Button id="btn_buy" label="买跌" x="583" y="552" anchorOffsetX="0" width="180" anchorOffsetY="0" height="72">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_sell_png" source.down="btn_sell_png" width.down="95%" height.down="95%"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_sell" label="买跌" x="812" y="550" anchorOffsetX="0" width="180" anchorOffsetY="0" height="72">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_buy_png" source.down="btn_buy_png" width.down="95%" height.down="95%"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="txt_gold" text="999,999" x="264.96" y="611" size="22" anchorOffsetX="0" width="270" textColor="0xf4f244"/>
+	<e:Image source="gold_png" x="231.5" y="609" anchorOffsetX="0" width="29" anchorOffsetY="0" height="26"/>
+	<e:Button id="btn_jian" label="" x="213.5" y="562" width="57" height="38">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_jian_png" source.down="btn_jian_png" width.down="95%" height.down="95%"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_jia" label="" x="371.46" y="561.29" width="57" height="38">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_jia_png" source.down="btn_jia_png" width.down="95%" height.down="95%"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="txt_num" text="1" x="270.5" y="568" size="22" anchorOffsetX="0" width="98" anchorOffsetY="0" height="22" textAlign="center"/>
+	<e:ToggleButton id="btn_type1" label="" x="584" y="216" width="138" height="111">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_spread1_png"/>
+	<e:Label text="最多获利75%" x="23" y="87" size="16" textColor="0xb46805"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:ToggleButton id="btn_type2" label="" x="725" y="216" width="138" height="111">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_spread2_png"/>
+			<e:Label text="最多获利80%" x="23" y="87" size="16" textColor="0x447a18"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:ToggleButton id="btn_type3" label="" x="866" y="214.67" width="138" height="111">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_spread3_png"/>
+			<e:Label text="最多获利85%" x="23" y="87" size="16" textColor="0x156695"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:Button id="btn_close" label="" x="1045" y="24">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_turnback_png" source.down="btn_turnback_png" width.down="95%" height.down="95%"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:TradeSymTypeItem id="type1" width="412" height="53" x="588" y="347"/>
+	<ns1:TradeSymTypeItem id="type2" width="412" height="53" x="588" y="408"/>
+	<ns1:TradeSymTypeItem id="type3" width="412" height="53" x="588" y="467"/>
+	<e:Image source="kline_jpg" x="112" y="217"/>
+	<e:Image id="img_flag1" source="img_itemflag_png" x="612" y="324"/>
+	<e:Image id="img_flag2" source="img_itemflag_png" x="753" y="324"/>
+	<e:Image id="img_flag3" source="img_itemflag_png" x="892.5" y="324"/>
+	<ns1:TradeSymbolItem id="sym1" width="296" height="102" x="116.96" y="114"/>
+	<ns1:TradeSymbolItem id="sym2" width="296" height="102" x="414" y="114"/>
+	<ns1:TradeSymbolItem id="sym3" width="296" height="102" x="711.04" y="114"/>
+	<e:Image source="img_funcbg_png" x="1084.06" y="175.64"/>
+	<e:Button id="btn_depot" label="" x="1048" y="227">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_5_png" source.down="btn_5_png" width.down="95%" height.down="95%"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_tradelog" label="" x="1048.06" y="336">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_4_png" source.down="btn_4_png" width.down="95%" height.down="95%"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.carItemSkin" width="860" height="95" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="btn_watch" x="717" y="19" source="btn_watch_png"/>
+	<e:Image id="carIco" source="carLongIco1_png" x="16" y="6"/>
+    <e:Label id="carTime" text="2017-3-10 18:00" x="266.04" y="36.5" textColor="0xffffff" strokeColor="0x612d0a" stroke="2" size="20" anchorOffsetX="0" width="182.6" textAlign="center" bold="true"/>
+	<e:Label id="carPrice" text="910,000" x="457.51" y="36.5" textColor="0xFFFFFF" strokeColor="0x612d0a" stroke="2" size="22" anchorOffsetX="0" width="144.2" textAlign="center"/>
+	<e:Image id="carResult" source="carResult0_png" x="604.19" y="34.5"/>
+	<e:Image source="line2_png" x="0" y="92.5" width="865"/>
+</e:Skin>

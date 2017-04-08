@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.depotItemContSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="blackBg_png" x="0" y="0" anchorOffsetX="0" width="1136" anchorOffsetY="0" height="640" locked="true" visible="false"/>
+	<e:Image source="depotBg2_png" x="403" y="126.62" locked="true"/>
+	<e:Image id="icoBg" source="icoBg_png" x="419" y="139.62" locked="true"/>
+	<e:Image id="ico" source="ico_1_png" x="419" y="139.62" locked="true"/>
+	<e:Image id="gold" source="gold_png" x="525" y="208.28" anchorOffsetX="0" width="34" anchorOffsetY="0" height="34" locked="true"/>
+	<e:Label id="tradeName" text="银矿石" x="531" y="152.34" anchorOffsetX="0" width="108" size="20" verticalAlign="middle" textAlign="left" strokeColor="0x41210b" stroke="2" textColor="0xffffff" locked="true"/>
+	<e:Label id="unit" text="8.5kg" x="611.1" y="151.55" anchorOffsetX="0" width="96" size="20" verticalAlign="middle" textAlign="right" strokeColor="0x41210b" stroke="2" textColor="0xffffff" locked="true"/>
+	<e:Label id="price" text="999,999" x="564.4" y="216.22" anchorOffsetX="0" width="96" size="22" verticalAlign="middle" textAlign="left" strokeColor="0x41210b" stroke="2" textColor="0xffffff" locked="true"/>
+	<e:Label id="text" text="买跌10箱子" x="528" y="184.26" anchorOffsetX="0" width="183" size="20" verticalAlign="middle" textAlign="left" strokeColor="0x41210b" stroke="2" textColor="0x6ff426" locked="true"/>
+	<e:Label id="price0" text="+1.00" x="543" y="282.12" anchorOffsetX="0" width="155" size="32" verticalAlign="middle" textAlign="center" strokeColor="0x41210b" stroke="2" anchorOffsetY="0" height="30" textColor="0xff2103" locked="true"/>
+	<e:Label id="price1" text="999,999" x="581" y="332.12" anchorOffsetX="0" width="96" size="20" verticalAlign="middle" textAlign="center" strokeColor="0x41210b" stroke="2" textColor="0xFFFFFF" locked="true"/>
+	<e:Label id="price2" text="999,999" x="581" y="362.12" anchorOffsetX="0" width="96" size="20" verticalAlign="middle" textAlign="center" strokeColor="0x41210b" stroke="2" textColor="0xFFFFFF" locked="true"/>
+	<e:Label id="price3" text="999,999" x="581" y="392.32" anchorOffsetX="0" width="96" size="20" verticalAlign="middle" textAlign="center" strokeColor="0x41210b" stroke="2" textColor="0xFFFFFF" locked="true"/>
+	<e:Label id="price4" text="999,999" x="581" y="422.12" anchorOffsetX="0" width="96" size="20" verticalAlign="middle" textAlign="center" strokeColor="0x41210b" stroke="2" textColor="0xFFFFFF" locked="true"/>
+	<e:Image id="icoResult" source="depotIco_0_png" x="449" y="284.62" locked="true"/>
+	<e:Image id="btnNext" source="depotIemBtn_png" y="455.62" horizontalCenter="0" locked="true"/>
+	<e:Image id="btnClose" source="btn_close_png" x="733" y="126.62" locked="true"/>
+</e:Skin>

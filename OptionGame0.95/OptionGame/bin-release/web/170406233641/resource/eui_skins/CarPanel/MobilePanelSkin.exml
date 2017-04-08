@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.MobilePanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="blackBg_png" x="0" y="0" width="1136" height="640" locked="true" visible="false"/>
+	<e:Image source="carRentalPanelBg3_png" x="297.5" y="152.5" locked="true"/>
+	<e:Image id="btn_close" source="btn_close_png" x="780.32" y="159" locked="true"/>
+	<e:Image source="gold_png" x="479.5" y="226.67" anchorOffsetX="0" width="43" anchorOffsetY="0" height="43" locked="true"/>
+	<e:Label text="100.000" x="524" y="236.17" strokeColor="0x41210b" stroke="2" size="24" anchorOffsetX="0" width="129" textAlign="left" textColor="0xfff000"/>
+	<e:Image x="686.34" y="341.51" source="btn_yanzhenma_png" locked="true"/>
+	<e:Image id="btn_bundling" x="304" y="407.51" source="btn_bangding_png"/>
+	<e:EditableText width="481" height="27" text="" x="327.5" y="287.5" anchorOffsetX="0" anchorOffsetY="0" textColor="0xffedc5" prompt="点击输入手机号" promptColor="0xffedc5" size="21" maxChars="11"/>
+	<e:EditableText width="345" height="27" text="" x="327.5" y="353.51" anchorOffsetX="0" anchorOffsetY="0" textColor="0xFFEDC5" prompt="点击输入验证码" promptColor="0xFFEDC5" size="21" maxChars="6"/>
+</e:Skin>

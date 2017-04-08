@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.resultPanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="blackBg_png" x="0" y="0" width="1136" height="640" locked="true" visible="false"/>
+	<e:Image x="298" y="152" source="tishiPanel_png" locked="true"/>
+	<e:Image id="btn" x="304" y="407.41" source="btn_queren_long_png" width="528" height="70" locked="true"/>
+	<e:Label text="商会创建申请已提交，审核期间请耐心等待！" x="364.68" y="282.27" anchorOffsetY="0" height="75.46" anchorOffsetX="0" width="406.64" textAlign="center" size="20" strokeColor="0x41210b" stroke="2" lineSpacing="8" textColor="0xfff3bb" locked="true"/>
+	<e:Image source="tishi_png" x="539.5" y="172" locked="true"/>
+</e:Skin>

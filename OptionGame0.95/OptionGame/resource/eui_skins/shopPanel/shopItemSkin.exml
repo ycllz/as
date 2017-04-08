@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.shopItemSkin" width="253" height="202" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" source="goldBg_png" x="0" y="0" locked="true"/>
+	<e:Image id="shopIco" y="49" source="ico_diamond6_png" horizontalCenter="-6.5"/>
+	<e:Image id="typeIco" source="zuanshi_png" x="63.68" y="146" anchorOffsetX="0" width="34.33" anchorOffsetY="0" height="34.33" locked="true"/>
+	<e:Label id="price" text="1280" x="103.68" y="150.68" textAlign="left" strokeColor="0x614a21" stroke="2" size="24" verticalAlign="middle" anchorOffsetX="0" width="81.5" anchorOffsetY="0" height="27.5"/>
+	<e:Label id="storeName" text="金币60" x="45.67" y="8.67" textAlign="center" anchorOffsetX="0" width="144" strokeColor="0x864b07" stroke="2" size="22" anchorOffsetY="0" height="26" verticalAlign="middle"/>
+</e:Skin>

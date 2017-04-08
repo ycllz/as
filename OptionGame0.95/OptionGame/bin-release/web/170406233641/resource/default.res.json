@@ -1,0 +1,1153 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,loading_png,xiushi_png,shibaiBotton_png",
+			"name": "preload"
+		},
+		{
+			"keys": "depotBg_png,depotBg2_png,depotIco_0_png,depotIco_1_png,depotIemBtn_png,itemBg_png,tab_0_0_png,tab_0_1_png,tab_1_0_png,tab_1_1_png,tab_2_0_png,tab_2_1_png,tab_3_0_png,tab_3_1_png",
+			"name": "depotPanel"
+		},
+		{
+			"keys": "btn_buy_png,btn_sell_png,btn_spread1_png,btn_spread2_png,btn_spread3_png,btn_turnback_png,img_funcbg_png,img_item_png,img_itemflag_png,img_itemseleted_png,img_symbolbg_png,img_symbolseleted_png,img_tradebg_png,img_tradebg0_png,kline_jpg",
+			"name": "trade"
+		},
+		{
+			"keys": "inIco_png,outIco_png,tradeBg_png,tradeItem_png,tab_4_0_png,tab_4_1_png,tab_5_0_png,tab_5_1_png",
+			"name": "tradePanel"
+		},
+		{
+			"keys": "btn_AllIn_png,btn_long_png,btn_short_png,build1_png,car1_png,car2_png,car3_png,car4_png,carBorder_png,carIco1_png,carIco2_png,carIco3_png,carIco4_png,carIco5_png,carLongIco1_png,carLongIco2_png,carLongIco3_png,carLongIco4_png,carLongIco5_png,carRentalBg_png,carRentalPanelBg_png,carRentalPanelBg1_png,carRentalPanelBg2_png,carRentalPanelBg3_png,carRentalPanelTabBg_png,dialogBox_png,line1_png,line2_png,mobilePanel_png,btn_bangding_png,btn_buyCar_png,btn_queren_long_png,btn_queren_short_png,btn_watch_png,btn_yanzhenma_png,carResult0_png,carResult1_png,carResult2_png,btn_tijiao_png",
+			"name": "carRentalPanel"
+		},
+		{
+			"keys": "LOGO_png,loadingPanel_png,loadingBar.pngBg_png,loadingBar_png,btn_weixin_png,btn_qq_png,btn_playGame_png,bigBg_png",
+			"name": "beginPanel"
+		},
+		{
+			"keys": "btn_fuzhi_png,btn_shenqing_png,btn_zhaomu_png,commerceBg_png,commerceBg1_png,commerceBotton_png,tab_coutDiamond_0_png,tab_coutDiamond_1_png,tab_coutGold_0_png,tab_coutGold_1_png,tab_gaikuo_0_png,tab_gaikuo_1_png,tab_zonglan_0_png,tab_zonglan_1_png,Vip1_png,Vip2_png",
+			"name": "commercePanel"
+		},
+		{
+			"keys": "btn_1_png,btn_2_png,btn_3_png,btn_4_png,btn_5_png,btn_add_png,btn_starttrade_png,icon_shadow_png,icon_shop_png,img_baner_png,img_banerbg_png,img_expbar_png,img_expbg_png,img_girl_png,img_moneytxtbg_png,img_rolebg0_png,img_rolebg1_png,img_tradetypebg_png,img_tradetypediamon_png,img_tradetypegole_png,img_tradetypeselete_png,mainItemBg_png,分割线12_png,按钮底_png,条目_png,ico_1_png,ico_2_png,ico_3_png,分割线1_png,九宫格1_png,blackBg_png,btn_back_png,btn_close_png,btn_jia_png,btn_jian_png,down_png,gold_png,icoBg_png,mainBg_png,renmingbi_png,tab_0_png,tab_1_png,tishi_png,tishiPanel_png,up_png,verticalBlueTab_0_png,verticalBlueTab_1_png,verticalYellowTab_0_png,verticalYellowTab_1_png,zuanshi_png,danqianjiaoyihuobi_png,huowubaojia_png",
+			"name": "mainPanel"
+		},
+		{
+			"keys": "0_png,1_png,10_png,11_png,2_png,3_png,4_png,5_png,6_png,7_png,8_png,9_png",
+			"name": "qwert"
+		},
+		{
+			"keys": "btn_queren_png,gongxihuoli_png,huoliBotton_png,resultBg_png,resultBg1_png,round_ico_diamond_png,round_ico_gold_png,shibaiBotton_png,smallStar_png,smallStar1_png,star1_png,touzishibai_png,xianshiBg_png,xiushi_png,yiduijinbi_png",
+			"name": "resultPanel"
+		},
+		{
+			"keys": "btn_goumai_png,diamondBg_png,goldBg_png,ico_diamond1_png,ico_diamond2_png,ico_diamond3_png,ico_diamond4_png,ico_diamond5_png,ico_diamond6_png,ico_gold1_png,ico_gold2_png,ico_gold3_png,ico_gold4_png,ico_gold5_png,ico_gold6_png,shop_title_png,shopPanel_png,tabDiamond_0_png,tabDiamond_1_png,tabGlod_0_png,tabGlod_1_png",
+			"name": "shopPanel"
+		},
+		{
+			"keys": "btn_bingPhone_png,btn_changePhone_png,btn_off_png,btn_on_png,img_bar_png,img_bg_png,img_bg1_png,img_rota_png,img_rotaInfo_png",
+			"name": "roleInfo"
+		},
+		{
+			"keys": "btn_delete_png,btn_deleteRead_png,btn_lingqu_png,btn_yijiang_png,emailContBg_png,emailItemBg_0_png,emailItemBg_1_png,emailPanelBg_png",
+			"name": "emailPanel"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/images/carRentalPanel/btn_AllIn.png",
+			"type": "image",
+			"name": "btn_AllIn_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/btn_long.png",
+			"type": "image",
+			"name": "btn_long_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/btn_short.png",
+			"type": "image",
+			"name": "btn_short_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/build1.png",
+			"type": "image",
+			"name": "build1_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/car1.png",
+			"type": "image",
+			"name": "car1_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/car2.png",
+			"type": "image",
+			"name": "car2_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/car3.png",
+			"type": "image",
+			"name": "car3_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/car4.png",
+			"type": "image",
+			"name": "car4_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carBorder.png",
+			"type": "image",
+			"name": "carBorder_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carIco1.png",
+			"type": "image",
+			"name": "carIco1_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carIco2.png",
+			"type": "image",
+			"name": "carIco2_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carIco3.png",
+			"type": "image",
+			"name": "carIco3_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carIco4.png",
+			"type": "image",
+			"name": "carIco4_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carIco5.png",
+			"type": "image",
+			"name": "carIco5_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carLongIco1.png",
+			"type": "image",
+			"name": "carLongIco1_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carLongIco2.png",
+			"type": "image",
+			"name": "carLongIco2_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carLongIco3.png",
+			"type": "image",
+			"name": "carLongIco3_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carLongIco4.png",
+			"type": "image",
+			"name": "carLongIco4_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carLongIco5.png",
+			"type": "image",
+			"name": "carLongIco5_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carRentalBg.png",
+			"type": "image",
+			"name": "carRentalBg_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carRentalPanelBg.png",
+			"type": "image",
+			"name": "carRentalPanelBg_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carRentalPanelBg1.png",
+			"type": "image",
+			"name": "carRentalPanelBg1_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carRentalPanelBg2.png",
+			"type": "image",
+			"name": "carRentalPanelBg2_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carRentalPanelBg3.png",
+			"type": "image",
+			"name": "carRentalPanelBg3_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carRentalPanelTabBg.png",
+			"type": "image",
+			"name": "carRentalPanelTabBg_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/dialogBox.png",
+			"type": "image",
+			"name": "dialogBox_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/line1.png",
+			"type": "image",
+			"name": "line1_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/line2.png",
+			"type": "image",
+			"name": "line2_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/mobilePanel.png",
+			"type": "image",
+			"name": "mobilePanel_png"
+		},
+		{
+			"url": "assets/images/common/blackBg.png",
+			"type": "image",
+			"name": "blackBg_png"
+		},
+		{
+			"url": "assets/images/common/btn_back.png",
+			"type": "image",
+			"name": "btn_back_png"
+		},
+		{
+			"url": "assets/images/common/btn_close.png",
+			"type": "image",
+			"name": "btn_close_png"
+		},
+		{
+			"url": "assets/images/common/btn_jia.png",
+			"type": "image",
+			"name": "btn_jia_png"
+		},
+		{
+			"url": "assets/images/common/btn_jian.png",
+			"type": "image",
+			"name": "btn_jian_png"
+		},
+		{
+			"url": "assets/images/common/down.png",
+			"type": "image",
+			"name": "down_png"
+		},
+		{
+			"url": "assets/images/common/gold.png",
+			"type": "image",
+			"name": "gold_png"
+		},
+		{
+			"url": "assets/images/common/icoBg.png",
+			"type": "image",
+			"name": "icoBg_png"
+		},
+		{
+			"url": "assets/images/common/mainBg.png",
+			"type": "image",
+			"name": "mainBg_png"
+		},
+		{
+			"url": "assets/images/common/tab_0.png",
+			"type": "image",
+			"name": "tab_0_png"
+		},
+		{
+			"url": "assets/images/common/tab_1.png",
+			"type": "image",
+			"name": "tab_1_png"
+		},
+		{
+			"url": "assets/images/common/up.png",
+			"type": "image",
+			"name": "up_png"
+		},
+		{
+			"url": "assets/images/common/zuanshi.png",
+			"type": "image",
+			"name": "zuanshi_png"
+		},
+		{
+			"url": "assets/images/common/九宫格1.png",
+			"type": "image",
+			"name": "九宫格1_png"
+		},
+		{
+			"url": "assets/images/common/分割线1.png",
+			"type": "image",
+			"name": "分割线1_png"
+		},
+		{
+			"url": "assets/images/depotPanel/depotBg.png",
+			"type": "image",
+			"name": "depotBg_png"
+		},
+		{
+			"url": "assets/images/depotPanel/depotBg2.png",
+			"type": "image",
+			"name": "depotBg2_png"
+		},
+		{
+			"url": "assets/images/depotPanel/depotIco_0.png",
+			"type": "image",
+			"name": "depotIco_0_png"
+		},
+		{
+			"url": "assets/images/depotPanel/depotIco_1.png",
+			"type": "image",
+			"name": "depotIco_1_png"
+		},
+		{
+			"url": "assets/images/depotPanel/depotIemBtn.png",
+			"type": "image",
+			"name": "depotIemBtn_png"
+		},
+		{
+			"url": "assets/images/depotPanel/itemBg.png",
+			"type": "image",
+			"name": "itemBg_png"
+		},
+		{
+			"url": "assets/images/ico/ico_1.png",
+			"type": "image",
+			"name": "ico_1_png"
+		},
+		{
+			"url": "assets/images/ico/ico_2.png",
+			"type": "image",
+			"name": "ico_2_png"
+		},
+		{
+			"url": "assets/images/ico/ico_3.png",
+			"type": "image",
+			"name": "ico_3_png"
+		},
+		{
+			"url": "assets/images/mainPanel/btn_1.png",
+			"type": "image",
+			"name": "btn_1_png"
+		},
+		{
+			"url": "assets/images/mainPanel/btn_2.png",
+			"type": "image",
+			"name": "btn_2_png"
+		},
+		{
+			"url": "assets/images/mainPanel/btn_3.png",
+			"type": "image",
+			"name": "btn_3_png"
+		},
+		{
+			"url": "assets/images/mainPanel/btn_4.png",
+			"type": "image",
+			"name": "btn_4_png"
+		},
+		{
+			"url": "assets/images/mainPanel/btn_5.png",
+			"type": "image",
+			"name": "btn_5_png"
+		},
+		{
+			"url": "assets/images/mainPanel/btn_add.png",
+			"type": "image",
+			"name": "btn_add_png"
+		},
+		{
+			"url": "assets/images/mainPanel/btn_starttrade.png",
+			"type": "image",
+			"name": "btn_starttrade_png"
+		},
+		{
+			"url": "assets/images/mainPanel/icon_shadow.png",
+			"type": "image",
+			"name": "icon_shadow_png"
+		},
+		{
+			"url": "assets/images/mainPanel/icon_shop.png",
+			"type": "image",
+			"name": "icon_shop_png"
+		},
+		{
+			"url": "assets/images/mainPanel/img_baner.png",
+			"type": "image",
+			"name": "img_baner_png"
+		},
+		{
+			"url": "assets/images/mainPanel/img_banerbg.png",
+			"type": "image",
+			"name": "img_banerbg_png"
+		},
+		{
+			"url": "assets/images/mainPanel/img_expbar.png",
+			"type": "image",
+			"name": "img_expbar_png"
+		},
+		{
+			"url": "assets/images/mainPanel/img_expbg.png",
+			"type": "image",
+			"name": "img_expbg_png"
+		},
+		{
+			"url": "assets/images/mainPanel/img_girl.png",
+			"type": "image",
+			"name": "img_girl_png"
+		},
+		{
+			"url": "assets/images/mainPanel/img_moneytxtbg.png",
+			"type": "image",
+			"name": "img_moneytxtbg_png"
+		},
+		{
+			"url": "assets/images/mainPanel/img_rolebg0.png",
+			"type": "image",
+			"name": "img_rolebg0_png"
+		},
+		{
+			"url": "assets/images/mainPanel/img_rolebg1.png",
+			"type": "image",
+			"name": "img_rolebg1_png"
+		},
+		{
+			"url": "assets/images/mainPanel/img_tradetypebg.png",
+			"type": "image",
+			"name": "img_tradetypebg_png"
+		},
+		{
+			"url": "assets/images/mainPanel/img_tradetypediamon.png",
+			"type": "image",
+			"name": "img_tradetypediamon_png"
+		},
+		{
+			"url": "assets/images/mainPanel/img_tradetypegole.png",
+			"type": "image",
+			"name": "img_tradetypegole_png"
+		},
+		{
+			"url": "assets/images/mainPanel/img_tradetypeselete.png",
+			"type": "image",
+			"name": "img_tradetypeselete_png"
+		},
+		{
+			"url": "assets/images/mainPanel/分割线1.png",
+			"type": "image",
+			"name": "分割线12_png"
+		},
+		{
+			"url": "assets/images/mainPanel/按钮底.png",
+			"type": "image",
+			"name": "按钮底_png"
+		},
+		{
+			"url": "assets/images/mainPanel/条目.png",
+			"type": "image",
+			"name": "条目_png"
+		},
+		{
+			"url": "assets/images/trade/btn_buy.png",
+			"type": "image",
+			"name": "btn_buy_png"
+		},
+		{
+			"url": "assets/images/trade/btn_sell.png",
+			"type": "image",
+			"name": "btn_sell_png"
+		},
+		{
+			"url": "assets/images/trade/btn_spread1.png",
+			"type": "image",
+			"name": "btn_spread1_png"
+		},
+		{
+			"url": "assets/images/trade/btn_spread2.png",
+			"type": "image",
+			"name": "btn_spread2_png"
+		},
+		{
+			"url": "assets/images/trade/btn_spread3.png",
+			"type": "image",
+			"name": "btn_spread3_png"
+		},
+		{
+			"url": "assets/images/trade/btn_turnback.png",
+			"type": "image",
+			"name": "btn_turnback_png"
+		},
+		{
+			"url": "assets/images/trade/img_funcbg.png",
+			"type": "image",
+			"name": "img_funcbg_png"
+		},
+		{
+			"url": "assets/images/trade/img_item.png",
+			"type": "image",
+			"name": "img_item_png"
+		},
+		{
+			"url": "assets/images/trade/img_itemflag.png",
+			"type": "image",
+			"name": "img_itemflag_png"
+		},
+		{
+			"url": "assets/images/trade/img_itemseleted.png",
+			"type": "image",
+			"name": "img_itemseleted_png"
+		},
+		{
+			"url": "assets/images/trade/img_symbolbg.png",
+			"type": "image",
+			"name": "img_symbolbg_png"
+		},
+		{
+			"url": "assets/images/trade/img_symbolseleted.png",
+			"type": "image",
+			"name": "img_symbolseleted_png"
+		},
+		{
+			"url": "assets/images/trade/img_tradebg.png",
+			"type": "image",
+			"name": "img_tradebg_png"
+		},
+		{
+			"url": "assets/images/trade/img_tradebg0.png",
+			"type": "image",
+			"name": "img_tradebg0_png"
+		},
+		{
+			"url": "assets/images/trade/kline.jpg",
+			"type": "image",
+			"name": "kline_jpg"
+		},
+		{
+			"url": "assets/images/tradePanel/inIco.png",
+			"type": "image",
+			"name": "inIco_png"
+		},
+		{
+			"url": "assets/images/tradePanel/outIco.png",
+			"type": "image",
+			"name": "outIco_png"
+		},
+		{
+			"url": "assets/images/tradePanel/tradeBg.png",
+			"type": "image",
+			"name": "tradeBg_png"
+		},
+		{
+			"url": "assets/images/tradePanel/tradeItem.png",
+			"type": "image",
+			"name": "tradeItem_png"
+		},
+		{
+			"url": "assets/loading.png",
+			"type": "image",
+			"name": "loading_png"
+		},
+		{
+			"url": "assets/images/beginPanel/bigBg.png",
+			"type": "image",
+			"name": "bigBg_png"
+		},
+		{
+			"url": "assets/images/beginPanel/btn_playGame.png",
+			"type": "image",
+			"name": "btn_playGame_png"
+		},
+		{
+			"url": "assets/images/beginPanel/btn_qq.png",
+			"type": "image",
+			"name": "btn_qq_png"
+		},
+		{
+			"url": "assets/images/beginPanel/btn_weixin.png",
+			"type": "image",
+			"name": "btn_weixin_png"
+		},
+		{
+			"url": "assets/images/beginPanel/loadingBar.png",
+			"type": "image",
+			"name": "loadingBar_png"
+		},
+		{
+			"url": "assets/images/beginPanel/loadingBar.pngBg.png",
+			"type": "image",
+			"name": "loadingBar.pngBg_png"
+		},
+		{
+			"url": "assets/images/beginPanel/loadingPanel.png",
+			"type": "image",
+			"name": "loadingPanel_png"
+		},
+		{
+			"url": "assets/images/beginPanel/LOGO.png",
+			"type": "image",
+			"name": "LOGO_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/btn_bangding.png",
+			"type": "image",
+			"name": "btn_bangding_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/btn_buyCar.png",
+			"type": "image",
+			"name": "btn_buyCar_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/btn_queren_long.png",
+			"type": "image",
+			"name": "btn_queren_long_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/btn_queren_short.png",
+			"type": "image",
+			"name": "btn_queren_short_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/btn_watch.png",
+			"type": "image",
+			"name": "btn_watch_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/btn_yanzhenma.png",
+			"type": "image",
+			"name": "btn_yanzhenma_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carResult0.png",
+			"type": "image",
+			"name": "carResult0_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carResult1.png",
+			"type": "image",
+			"name": "carResult1_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/carResult2.png",
+			"type": "image",
+			"name": "carResult2_png"
+		},
+		{
+			"url": "assets/images/commercePanel/btn_fuzhi.png",
+			"type": "image",
+			"name": "btn_fuzhi_png"
+		},
+		{
+			"url": "assets/images/commercePanel/btn_shenqing.png",
+			"type": "image",
+			"name": "btn_shenqing_png"
+		},
+		{
+			"url": "assets/images/commercePanel/btn_zhaomu.png",
+			"type": "image",
+			"name": "btn_zhaomu_png"
+		},
+		{
+			"url": "assets/images/commercePanel/commerceBg.png",
+			"type": "image",
+			"name": "commerceBg_png"
+		},
+		{
+			"url": "assets/images/commercePanel/commerceBg1.png",
+			"type": "image",
+			"name": "commerceBg1_png"
+		},
+		{
+			"url": "assets/images/commercePanel/commerceBotton.png",
+			"type": "image",
+			"name": "commerceBotton_png"
+		},
+		{
+			"url": "assets/images/commercePanel/tab_coutDiamond_0.png",
+			"type": "image",
+			"name": "tab_coutDiamond_0_png"
+		},
+		{
+			"url": "assets/images/commercePanel/tab_coutDiamond_1.png",
+			"type": "image",
+			"name": "tab_coutDiamond_1_png"
+		},
+		{
+			"url": "assets/images/commercePanel/tab_coutGold_0.png",
+			"type": "image",
+			"name": "tab_coutGold_0_png"
+		},
+		{
+			"url": "assets/images/commercePanel/tab_coutGold_1.png",
+			"type": "image",
+			"name": "tab_coutGold_1_png"
+		},
+		{
+			"url": "assets/images/commercePanel/tab_gaikuo_0.png",
+			"type": "image",
+			"name": "tab_gaikuo_0_png"
+		},
+		{
+			"url": "assets/images/commercePanel/tab_gaikuo_1.png",
+			"type": "image",
+			"name": "tab_gaikuo_1_png"
+		},
+		{
+			"url": "assets/images/commercePanel/tab_zonglan_0.png",
+			"type": "image",
+			"name": "tab_zonglan_0_png"
+		},
+		{
+			"url": "assets/images/commercePanel/tab_zonglan_1.png",
+			"type": "image",
+			"name": "tab_zonglan_1_png"
+		},
+		{
+			"url": "assets/images/commercePanel/Vip1.png",
+			"type": "image",
+			"name": "Vip1_png"
+		},
+		{
+			"url": "assets/images/commercePanel/Vip2.png",
+			"type": "image",
+			"name": "Vip2_png"
+		},
+		{
+			"url": "assets/images/common/renmingbi.png",
+			"type": "image",
+			"name": "renmingbi_png"
+		},
+		{
+			"url": "assets/images/common/tishi.png",
+			"type": "image",
+			"name": "tishi_png"
+		},
+		{
+			"url": "assets/images/common/tishiPanel.png",
+			"type": "image",
+			"name": "tishiPanel_png"
+		},
+		{
+			"url": "assets/images/common/verticalBlueTab_0.png",
+			"type": "image",
+			"name": "verticalBlueTab_0_png"
+		},
+		{
+			"url": "assets/images/common/verticalBlueTab_1.png",
+			"type": "image",
+			"name": "verticalBlueTab_1_png"
+		},
+		{
+			"url": "assets/images/common/verticalYellowTab_0.png",
+			"type": "image",
+			"name": "verticalYellowTab_0_png"
+		},
+		{
+			"url": "assets/images/common/verticalYellowTab_1.png",
+			"type": "image",
+			"name": "verticalYellowTab_1_png"
+		},
+		{
+			"url": "assets/images/depotPanel/tab_0_0.png",
+			"type": "image",
+			"name": "tab_0_0_png"
+		},
+		{
+			"url": "assets/images/depotPanel/tab_0_1.png",
+			"type": "image",
+			"name": "tab_0_1_png"
+		},
+		{
+			"url": "assets/images/depotPanel/tab_1_0.png",
+			"type": "image",
+			"name": "tab_1_0_png"
+		},
+		{
+			"url": "assets/images/depotPanel/tab_1_1.png",
+			"type": "image",
+			"name": "tab_1_1_png"
+		},
+		{
+			"url": "assets/images/depotPanel/tab_2_0.png",
+			"type": "image",
+			"name": "tab_2_0_png"
+		},
+		{
+			"url": "assets/images/depotPanel/tab_2_1.png",
+			"type": "image",
+			"name": "tab_2_1_png"
+		},
+		{
+			"url": "assets/images/depotPanel/tab_3_0.png",
+			"type": "image",
+			"name": "tab_3_0_png"
+		},
+		{
+			"url": "assets/images/depotPanel/tab_3_1.png",
+			"type": "image",
+			"name": "tab_3_1_png"
+		},
+		{
+			"url": "assets/images/mainPanel/mainItemBg.png",
+			"type": "image",
+			"name": "mainItemBg_png"
+		},
+		{
+			"url": "assets/images/qwert/0.png",
+			"type": "image",
+			"name": "0_png"
+		},
+		{
+			"url": "assets/images/qwert/1.png",
+			"type": "image",
+			"name": "1_png"
+		},
+		{
+			"url": "assets/images/qwert/10.png",
+			"type": "image",
+			"name": "10_png"
+		},
+		{
+			"url": "assets/images/qwert/11.png",
+			"type": "image",
+			"name": "11_png"
+		},
+		{
+			"url": "assets/images/qwert/2.png",
+			"type": "image",
+			"name": "2_png"
+		},
+		{
+			"url": "assets/images/qwert/3.png",
+			"type": "image",
+			"name": "3_png"
+		},
+		{
+			"url": "assets/images/qwert/4.png",
+			"type": "image",
+			"name": "4_png"
+		},
+		{
+			"url": "assets/images/qwert/5.png",
+			"type": "image",
+			"name": "5_png"
+		},
+		{
+			"url": "assets/images/qwert/6.png",
+			"type": "image",
+			"name": "6_png"
+		},
+		{
+			"url": "assets/images/qwert/7.png",
+			"type": "image",
+			"name": "7_png"
+		},
+		{
+			"url": "assets/images/qwert/8.png",
+			"type": "image",
+			"name": "8_png"
+		},
+		{
+			"url": "assets/images/qwert/9.png",
+			"type": "image",
+			"name": "9_png"
+		},
+		{
+			"url": "assets/images/resultPanel/btn_queren.png",
+			"type": "image",
+			"name": "btn_queren_png"
+		},
+		{
+			"url": "assets/images/resultPanel/gongxihuoli.png",
+			"type": "image",
+			"name": "gongxihuoli_png"
+		},
+		{
+			"url": "assets/images/resultPanel/huoliBotton.png",
+			"type": "image",
+			"name": "huoliBotton_png"
+		},
+		{
+			"url": "assets/images/resultPanel/resultBg.png",
+			"type": "image",
+			"name": "resultBg_png"
+		},
+		{
+			"url": "assets/images/resultPanel/resultBg1.png",
+			"type": "image",
+			"name": "resultBg1_png"
+		},
+		{
+			"url": "assets/images/resultPanel/round_ico_diamond.png",
+			"type": "image",
+			"name": "round_ico_diamond_png"
+		},
+		{
+			"url": "assets/images/resultPanel/round_ico_gold.png",
+			"type": "image",
+			"name": "round_ico_gold_png"
+		},
+		{
+			"url": "assets/images/resultPanel/shibaiBotton.png",
+			"type": "image",
+			"name": "shibaiBotton_png"
+		},
+		{
+			"url": "assets/images/resultPanel/smallStar.png",
+			"type": "image",
+			"name": "smallStar_png"
+		},
+		{
+			"url": "assets/images/resultPanel/smallStar1.png",
+			"type": "image",
+			"name": "smallStar1_png"
+		},
+		{
+			"url": "assets/images/resultPanel/star1.png",
+			"type": "image",
+			"name": "star1_png"
+		},
+		{
+			"url": "assets/images/resultPanel/touzishibai.png",
+			"type": "image",
+			"name": "touzishibai_png"
+		},
+		{
+			"url": "assets/images/resultPanel/xianshiBg.png",
+			"type": "image",
+			"name": "xianshiBg_png"
+		},
+		{
+			"url": "assets/images/resultPanel/xiushi.png",
+			"type": "image",
+			"name": "xiushi_png"
+		},
+		{
+			"url": "assets/images/resultPanel/yiduijinbi.png",
+			"type": "image",
+			"name": "yiduijinbi_png"
+		},
+		{
+			"url": "assets/images/shopPanel/btn_goumai.png",
+			"type": "image",
+			"name": "btn_goumai_png"
+		},
+		{
+			"url": "assets/images/shopPanel/diamondBg.png",
+			"type": "image",
+			"name": "diamondBg_png"
+		},
+		{
+			"url": "assets/images/shopPanel/goldBg.png",
+			"type": "image",
+			"name": "goldBg_png"
+		},
+		{
+			"url": "assets/images/shopPanel/ico_diamond1.png",
+			"type": "image",
+			"name": "ico_diamond1_png"
+		},
+		{
+			"url": "assets/images/shopPanel/ico_diamond2.png",
+			"type": "image",
+			"name": "ico_diamond2_png"
+		},
+		{
+			"url": "assets/images/shopPanel/ico_diamond3.png",
+			"type": "image",
+			"name": "ico_diamond3_png"
+		},
+		{
+			"url": "assets/images/shopPanel/ico_diamond4.png",
+			"type": "image",
+			"name": "ico_diamond4_png"
+		},
+		{
+			"url": "assets/images/shopPanel/ico_diamond5.png",
+			"type": "image",
+			"name": "ico_diamond5_png"
+		},
+		{
+			"url": "assets/images/shopPanel/ico_diamond6.png",
+			"type": "image",
+			"name": "ico_diamond6_png"
+		},
+		{
+			"url": "assets/images/shopPanel/ico_gold1.png",
+			"type": "image",
+			"name": "ico_gold1_png"
+		},
+		{
+			"url": "assets/images/shopPanel/ico_gold2.png",
+			"type": "image",
+			"name": "ico_gold2_png"
+		},
+		{
+			"url": "assets/images/shopPanel/ico_gold3.png",
+			"type": "image",
+			"name": "ico_gold3_png"
+		},
+		{
+			"url": "assets/images/shopPanel/ico_gold4.png",
+			"type": "image",
+			"name": "ico_gold4_png"
+		},
+		{
+			"url": "assets/images/shopPanel/ico_gold5.png",
+			"type": "image",
+			"name": "ico_gold5_png"
+		},
+		{
+			"url": "assets/images/shopPanel/ico_gold6.png",
+			"type": "image",
+			"name": "ico_gold6_png"
+		},
+		{
+			"url": "assets/images/shopPanel/shopPanel.png",
+			"type": "image",
+			"name": "shopPanel_png"
+		},
+		{
+			"url": "assets/images/shopPanel/shop_title.png",
+			"type": "image",
+			"name": "shop_title_png"
+		},
+		{
+			"url": "assets/images/shopPanel/tabDiamond_0.png",
+			"type": "image",
+			"name": "tabDiamond_0_png"
+		},
+		{
+			"url": "assets/images/shopPanel/tabDiamond_1.png",
+			"type": "image",
+			"name": "tabDiamond_1_png"
+		},
+		{
+			"url": "assets/images/shopPanel/tabGlod_0.png",
+			"type": "image",
+			"name": "tabGlod_0_png"
+		},
+		{
+			"url": "assets/images/shopPanel/tabGlod_1.png",
+			"type": "image",
+			"name": "tabGlod_1_png"
+		},
+		{
+			"url": "assets/images/tradePanel/tab_4_0.png",
+			"type": "image",
+			"name": "tab_4_0_png"
+		},
+		{
+			"url": "assets/images/tradePanel/tab_4_1.png",
+			"type": "image",
+			"name": "tab_4_1_png"
+		},
+		{
+			"url": "assets/images/tradePanel/tab_5_0.png",
+			"type": "image",
+			"name": "tab_5_0_png"
+		},
+		{
+			"url": "assets/images/tradePanel/tab_5_1.png",
+			"type": "image",
+			"name": "tab_5_1_png"
+		},
+		{
+			"url": "assets/images/emailPanel/btn_delete.png",
+			"type": "image",
+			"name": "btn_delete_png"
+		},
+		{
+			"url": "assets/images/emailPanel/btn_deleteRead.png",
+			"type": "image",
+			"name": "btn_deleteRead_png"
+		},
+		{
+			"url": "assets/images/emailPanel/btn_lingqu.png",
+			"type": "image",
+			"name": "btn_lingqu_png"
+		},
+		{
+			"url": "assets/images/emailPanel/btn_yijiang.png",
+			"type": "image",
+			"name": "btn_yijiang_png"
+		},
+		{
+			"url": "assets/images/emailPanel/emailContBg.png",
+			"type": "image",
+			"name": "emailContBg_png"
+		},
+		{
+			"url": "assets/images/emailPanel/emailItemBg_0.png",
+			"type": "image",
+			"name": "emailItemBg_0_png"
+		},
+		{
+			"url": "assets/images/emailPanel/emailItemBg_1.png",
+			"type": "image",
+			"name": "emailItemBg_1_png"
+		},
+		{
+			"url": "assets/images/emailPanel/emailPanelBg.png",
+			"type": "image",
+			"name": "emailPanelBg_png"
+		},
+		{
+			"url": "assets/images/roleInfo/img_rotaInfo.png",
+			"type": "image",
+			"name": "img_rotaInfo_png"
+		},
+		{
+			"url": "assets/images/roleInfo/btn_bingPhone.png",
+			"type": "image",
+			"name": "btn_bingPhone_png"
+		},
+		{
+			"url": "assets/images/roleInfo/btn_changePhone.png",
+			"type": "image",
+			"name": "btn_changePhone_png"
+		},
+		{
+			"url": "assets/images/roleInfo/btn_off.png",
+			"type": "image",
+			"name": "btn_off_png"
+		},
+		{
+			"url": "assets/images/roleInfo/btn_on.png",
+			"type": "image",
+			"name": "btn_on_png"
+		},
+		{
+			"url": "assets/images/roleInfo/img_bar.png",
+			"type": "image",
+			"name": "img_bar_png"
+		},
+		{
+			"url": "assets/images/roleInfo/img_bg.png",
+			"type": "image",
+			"name": "img_bg_png"
+		},
+		{
+			"url": "assets/images/roleInfo/img_bg1.png",
+			"type": "image",
+			"name": "img_bg1_png"
+		},
+		{
+			"url": "assets/images/roleInfo/img_rota.png",
+			"type": "image",
+			"name": "img_rota_png"
+		},
+		{
+			"url": "assets/images/mainPanel/danqianjiaoyihuobi.png",
+			"type": "image",
+			"name": "danqianjiaoyihuobi_png"
+		},
+		{
+			"url": "assets/images/mainPanel/huowubaojia.png",
+			"type": "image",
+			"name": "huowubaojia_png"
+		},
+		{
+			"url": "assets/images/carRentalPanel/btn_tijiao.png",
+			"type": "image",
+			"name": "btn_tijiao_png"
+		}
+	]
+}

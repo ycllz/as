@@ -1,0 +1,61 @@
+/**
+ * 协议设计一定要以一对出现，也就是说有REQ，下一条协议就是RESP
+ */
+var MsgAction;
+(function (MsgAction) {
+    //1-5000	为无锁单线程操作
+    //1->50帐号登录管理
+    MsgAction[MsgAction["PROTO_BEGIN"] = 0] = "PROTO_BEGIN";
+    MsgAction[MsgAction["ON_CHANNEL_SESSION_CLOSE"] = 1] = "ON_CHANNEL_SESSION_CLOSE";
+    MsgAction[MsgAction["ON_COM_ERROR_PROTO_SC"] = 2] = "ON_COM_ERROR_PROTO_SC";
+    MsgAction[MsgAction["ON_HAND_OUT_ONE_CARD_SC"] = 3] = "ON_HAND_OUT_ONE_CARD_SC";
+    MsgAction[MsgAction["ON_COM_PROTO_RESP_CS"] = 7] = "ON_COM_PROTO_RESP_CS";
+    /** 登录协议 */
+    MsgAction[MsgAction["ON_WEIXIN_ACCESS_TOKEN_REQ_CS"] = 11] = "ON_WEIXIN_ACCESS_TOKEN_REQ_CS";
+    MsgAction[MsgAction["ON_WEIXIN_ACCESS_TOKEN_RESP_SC"] = 12] = "ON_WEIXIN_ACCESS_TOKEN_RESP_SC";
+    MsgAction[MsgAction["ON_WEIXIN_USERINFO_REQ_CS"] = 13] = "ON_WEIXIN_USERINFO_REQ_CS";
+    MsgAction[MsgAction["ON_WEIXIN_USERINFO_RESP_SC"] = 14] = "ON_WEIXIN_USERINFO_RESP_SC";
+    /** 房间协议 */
+    MsgAction[MsgAction["ON_OPENING_HOUSEINFO_REQ_CS"] = 101] = "ON_OPENING_HOUSEINFO_REQ_CS";
+    MsgAction[MsgAction["ON_OPENING_HOUSEINFO_RESP_SC"] = 102] = "ON_OPENING_HOUSEINFO_RESP_SC";
+    MsgAction[MsgAction["ON_OPEN_HOUSE_REQ_CS"] = 103] = "ON_OPEN_HOUSE_REQ_CS";
+    MsgAction[MsgAction["ON_OPEN_HOUSE_RESP_SC"] = 104] = "ON_OPEN_HOUSE_RESP_SC";
+    MsgAction[MsgAction["ON_CLOSE_HOUSE_REQ_CS"] = 105] = "ON_CLOSE_HOUSE_REQ_CS";
+    MsgAction[MsgAction["ON_CLOSE_HOUSE_RESP_SC"] = 106] = "ON_CLOSE_HOUSE_RESP_SC";
+    MsgAction[MsgAction["ON_SIGN_CLOSE_HOUSE_REQ_CS"] = 107] = "ON_SIGN_CLOSE_HOUSE_REQ_CS";
+    MsgAction[MsgAction["ON_SIGN_CLOSE_HOUSE_RESP_SC"] = 108] = "ON_SIGN_CLOSE_HOUSE_RESP_SC";
+    MsgAction[MsgAction["ON_ANSWER_SIGN_CLOSE_HOUSE_REQ_CS"] = 109] = "ON_ANSWER_SIGN_CLOSE_HOUSE_REQ_CS";
+    MsgAction[MsgAction["ON_ANSWER_SIGN_CLOSE_HOUSE_RESP_SC"] = 110] = "ON_ANSWER_SIGN_CLOSE_HOUSE_RESP_SC";
+    MsgAction[MsgAction["ON_JOIN_HOUSE_REQ_CS"] = 111] = "ON_JOIN_HOUSE_REQ_CS";
+    MsgAction[MsgAction["ON_JOIN_HOUSE_RESP_SC"] = 112] = "ON_JOIN_HOUSE_RESP_SC";
+    MsgAction[MsgAction["ON_QUIT_HOUSE_REQ_CS"] = 113] = "ON_QUIT_HOUSE_REQ_CS";
+    MsgAction[MsgAction["ON_QUIT_HOUSE_RESP_SC"] = 114] = "ON_QUIT_HOUSE_RESP_SC";
+    /** 游戏过程协议 */
+    MsgAction[MsgAction["ON_VOTE_KING_REQ_CS"] = 151] = "ON_VOTE_KING_REQ_CS";
+    MsgAction[MsgAction["ON_VOTE_KING_RESP_SC"] = 152] = "ON_VOTE_KING_RESP_SC";
+    MsgAction[MsgAction["ON_DELIVER_CARD_REQ_CS"] = 153] = "ON_DELIVER_CARD_REQ_CS";
+    MsgAction[MsgAction["ON_DELIVER_CARD_RESP_SC"] = 154] = "ON_DELIVER_CARD_RESP_SC";
+    MsgAction[MsgAction["ON_OUTPUT_CARD_REQ_CS"] = 161] = "ON_OUTPUT_CARD_REQ_CS";
+    MsgAction[MsgAction["ON_OUTPUT_CARD_RESP_SC"] = 162] = "ON_OUTPUT_CARD_RESP_SC";
+    MsgAction[MsgAction["ON_PLAY_CIRCLE_ACTION_NONE_CS"] = 163] = "ON_PLAY_CIRCLE_ACTION_NONE_CS";
+    MsgAction[MsgAction["ON_PLAY_CIRCLE_ACTION_NONE_SC"] = 164] = "ON_PLAY_CIRCLE_ACTION_NONE_SC";
+    MsgAction[MsgAction["ON_PLAY_CIRCLE_ACTION_PASS_CS"] = 165] = "ON_PLAY_CIRCLE_ACTION_PASS_CS";
+    MsgAction[MsgAction["ON_PLAY_CIRCLE_ACTION_PASS_SC"] = 166] = "ON_PLAY_CIRCLE_ACTION_PASS_SC";
+    MsgAction[MsgAction["ON_PLAY_CIRCLE_ACTION_PENG_CS"] = 167] = "ON_PLAY_CIRCLE_ACTION_PENG_CS";
+    MsgAction[MsgAction["ON_PLAY_CIRCLE_ACTION_PENG_SC"] = 168] = "ON_PLAY_CIRCLE_ACTION_PENG_SC";
+    MsgAction[MsgAction["ON_PLAY_CIRCLE_ACTION_DIAN_GANG_CS"] = 169] = "ON_PLAY_CIRCLE_ACTION_DIAN_GANG_CS";
+    MsgAction[MsgAction["ON_PLAY_CIRCLE_ACTION_DIAN_GANG_SC"] = 170] = "ON_PLAY_CIRCLE_ACTION_DIAN_GANG_SC";
+    MsgAction[MsgAction["ON_PLAY_CIRCLE_ACTION_AN_GANG_CS"] = 171] = "ON_PLAY_CIRCLE_ACTION_AN_GANG_CS";
+    MsgAction[MsgAction["ON_PLAY_CIRCLE_ACTION_AN_GANG_SC"] = 172] = "ON_PLAY_CIRCLE_ACTION_AN_GANG_SC";
+    MsgAction[MsgAction["ON_PLAY_CIRCLE_ACTIONP_PENG_GANG_CS"] = 173] = "ON_PLAY_CIRCLE_ACTIONP_PENG_GANG_CS";
+    MsgAction[MsgAction["ON_PLAY_CIRCLE_ACTIONP_PENG_GANG_SC"] = 174] = "ON_PLAY_CIRCLE_ACTIONP_PENG_GANG_SC";
+    MsgAction[MsgAction["ON_HU_CARD_REQ_CS"] = 175] = "ON_HU_CARD_REQ_CS";
+    MsgAction[MsgAction["ON_HU_CARD_RESP_SC"] = 176] = "ON_HU_CARD_RESP_SC";
+    MsgAction[MsgAction["ON_TEST_CONFIG_MY_CARDS_CS"] = 701] = "ON_TEST_CONFIG_MY_CARDS_CS";
+    MsgAction[MsgAction["ON_TEST_CONFIG_MY_CARDS_SC"] = 702] = "ON_TEST_CONFIG_MY_CARDS_SC";
+    MsgAction[MsgAction["ON_TEST_CONFIG_LAST_CARDS_CS"] = 703] = "ON_TEST_CONFIG_LAST_CARDS_CS";
+    MsgAction[MsgAction["ON_TEST_CONFIG_LAST_CARDS_SC"] = 704] = "ON_TEST_CONFIG_LAST_CARDS_SC";
+    MsgAction[MsgAction["PROTO_END"] = 705] = "PROTO_END"; //微信请求access_token返回
+    // 5001-9999为多线程有锁操作
+})(MsgAction || (MsgAction = {}));
+//# sourceMappingURL=MsgAction.js.map

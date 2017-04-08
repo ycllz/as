@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.carRentalPanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="carRentalBg_png" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<e:Image id="btnBuild" source="build1_png" x="287.61" y="-40.62"/>
+	<e:Image source="car1_png" x="18.08" y="298"/>
+	<e:Image source="car2_png" x="287.61" y="298"/>
+	<e:Image source="car3_png" x="549.86" y="298"/>
+	<e:Image source="car4_png" x="821.09" y="298"/>
+	<e:Image id="btn_back" source="btn_back_png" x="1051.4" y="14.23"/>
+</e:Skin>

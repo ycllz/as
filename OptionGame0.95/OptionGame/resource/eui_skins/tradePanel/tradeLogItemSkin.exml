@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.tradeLogItemSkin" width="739" height="98" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="tradeItem_png" x="0" y="0" locked="true"/>
+	<e:Image source="icoBg_png" x="7" y="7.7" scaleX="0.8" scaleY="0.8" locked="true"/>
+	<e:Image id="ico" source="ico_1_png" x="7" y="7.7" scaleX="0.8" scaleY="0.8" locked="true"/>
+	<e:Image id="gold" source="gold_png" x="556.5" y="47.7" anchorOffsetX="0" width="33.5" anchorOffsetY="0" height="33.5"/>
+	<e:Label id="tradeName" text="银矿石" x="93.48" y="7.49" textColor="0xffffff" strokeColor="0x2e0000" stroke="2" size="20" anchorOffsetX="0" width="114.33" textAlign="left" locked="true"/>
+	<e:Label id="margin" text="( 4价差 )" x="159.88" y="6.33" strokeColor="0x2e0000" stroke="2" size="20" anchorOffsetX="0" width="114.33" textAlign="left" textColor="0xffde00"/>
+	<e:Label id="tradeId" text="392019001" x="301.18" y="11.67" textColor="0xFFFFFF" strokeColor="0x573c21" stroke="2" size="16" anchorOffsetX="0" width="248.33" textAlign="right"/>
+	<e:Label text="订单号：" x="395.67" y="8.67" textColor="0xFFFFFF" strokeColor="0x573C21" stroke="2" size="18" anchorOffsetX="0" width="72.83" textAlign="right"/>
+	<e:Label id="tradeTime" text="2017-3-12 09:12" x="566.51" y="9.67" textColor="0xFFFFFF" strokeColor="0x573c21" stroke="2" size="16" anchorOffsetX="0" width="153.53" textAlign="center"/>
+	<e:Label id="salePrice" text="卖出价：   15.000" x="407.15" y="44.35" strokeColor="0x4e2606" size="16" anchorOffsetX="0" width="153.53" textAlign="left" textColor="0x755347" bold="true"/>
+	<e:Label id="tip" text="服务费：   15.000" x="407.15" y="69.83" strokeColor="0x4e2606" size="16" anchorOffsetX="0" width="153.53" textAlign="left" textColor="0x755347" bold="true"/>
+	<e:Label id="buyPrice" text="买入价：2000.000" x="253.62" y="44.35" strokeColor="0x4e2606" size="16" anchorOffsetX="0" width="153.53" textAlign="left" textColor="0x755347" bold="true"/>
+	<e:Label id="payPrice" text="订货款：2000.000" x="253.62" y="69.83" strokeColor="0x4e2606" size="16" anchorOffsetX="0" width="153.53" textAlign="left" textColor="0x755347" bold="true"/>
+	<e:Label id="text" text="买跌 10箱" x="94.78" y="53.5" strokeColor="0x0c2b04" size="20" anchorOffsetX="0" width="131.53" textAlign="left" textColor="0x70da36" bold="true"/>
+	<e:Label id="price" text="-31,888" x="596" y="50.16" strokeColor="0x450303" size="22" anchorOffsetX="0" width="114.2" textAlign="right" anchorOffsetY="0" height="29.67" verticalAlign="middle" stroke="2" textColor="0xff2103"/>
+</e:Skin>

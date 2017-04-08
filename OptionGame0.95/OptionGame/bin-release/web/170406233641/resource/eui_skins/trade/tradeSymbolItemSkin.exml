@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.tradeSymbolItemSkin" width="296" height="102" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="img_symbolbg_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="img_seleted" source="img_symbolseleted_png" x="0" y="0" locked="true"/>
+	<e:Image id="img_resicon" source="icoBg_png" x="15.59" y="17.17" width="65" height="65" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="img_flagdown" source="down_png" x="82" y="53"/>
+	<e:Image id="img_flagup" source="up_png" x="82" y="52"/>
+	<e:Label id="txt_symbolname" text="银矿石" x="81.34" y="21" size="18" anchorOffsetX="0" width="133.33" textColor="0xbafffe" stroke="2" strokeColor="0x080d11" textAlign="center"/>
+	<e:Label id="txt_symbolprice" text="381,099" x="118" y="50.67" size="24" anchorOffsetX="0" width="163" textColor="0xff0000" stroke="2" strokeColor="0x080d11"/>
+	<e:Image id="img_ico" source="ico_1_png" x="15.59" y="17.17" width="65" height="65"/>
+</e:Skin>

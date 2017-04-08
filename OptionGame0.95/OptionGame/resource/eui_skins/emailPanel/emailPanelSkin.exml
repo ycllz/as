@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.emailPanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="blackBg_png" x="0" y="0" width="1136" height="640" visible="false"/>
+	<e:Image source="emailPanelBg_png" x="177.5" y="56.5"/>
+	<e:Image source="btn_deleteRead_png" x="530.61" y="503.46"/>
+	<e:Image source="btn_yijiang_png" x="737.61" y="503.46"/>
+	<e:Label text="3/50" x="260.02" y="528.46" size="20" stroke="2" strokeColor="0x4C2D0D" anchorOffsetX="0" width="140" textAlign="left" textColor="0xFFFFFF"/>
+	<e:Image id="btn_close" source="btn_close_png" x="893.5" y="65.68"/>
+	<e:Scroller width="739" height="361.33" x="198.5" y="130.37" anchorOffsetY="0">
+		<e:Group id="content" width="739"/>
+	</e:Scroller>
+</e:Skin>

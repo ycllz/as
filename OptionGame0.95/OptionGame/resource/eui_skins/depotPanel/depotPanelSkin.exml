@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.depotPanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="balckBg" source="blackBg_png" x="0" y="0" anchorOffsetX="0" width="1136" anchorOffsetY="0" height="640" locked="true" visible="false"/>
+	<e:Image source="depotBg_png" width="970" verticalCenter="0" horizontalCenter="0" fillMode="scale" scale9Grid="30,30,30,30" locked="true"/>
+	<e:Image id="tab4" x="630" y="65" source="tab_3_0_png" locked="true"/>
+	<e:Image id="tab3" x="455" y="65" source="tab_2_0_png" locked="true"/>
+	<e:Image id="tab2" x="280" y="65" source="tab_1_0_png" locked="true"/>
+	<e:Image id="tab1" x="105" y="65" source="tab_0_0_png" locked="true"/>
+	<e:Image id="btn_close" source="btn_close_png" x="984" y="66" locked="true"/>
+	<e:Label text="点击货物可查看详细情况" y="599.98" textColor="0x29fffc" horizontalCenter="0.5" stroke="2" size="22"/>
+	<e:Label id="percent" text="容量：10/50" y="542.05" stroke="2" horizontalCenter="-6.5" textColor="0xffe8a0" size="22" anchorOffsetX="0" width="305.33" textAlign="center"/>
+	<e:Scroller width="930" height="388.67" y="132" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" locked="true">
+		<e:Group id="content" anchorOffsetX="0" width="842" anchorOffsetY="0" height="410.33">
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.carBuySkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="blackBg_png" x="0" y="0" width="1136" height="640" locked="true" visible="false"/>
+	<e:Image source="carRentalPanelBg1_png" x="198" y="66.5" touchEnabled="false" horizontalCenter="0" locked="true"/>
+	<e:Image id="btnCar1" source="carIco1_png" x="215.5" y="241.59" locked="true"/>
+	<e:Image id="btnCar2" source="carIco1_png" x="355.5" y="241.59" locked="true"/>
+	<e:Image id="btnCar3" source="carIco1_png" x="495.5" y="241.59" locked="true"/>
+	<e:Image id="btnCar4" source="carIco1_png" x="635.5" y="241.59" locked="true"/>
+	<e:Image id="btnCar5" source="carIco1_png" x="775.5" y="241.59" locked="true"/>
+	<e:Image source="btn_AllIn_png" x="752.73" y="427.97" anchorOffsetX="0" width="161.77" scale9Grid="36,7,52,43" locked="true"/>
+	<e:Image id="btn_game" x="304" y="494" source="btn_tijiao_png"/>
+	<e:Image source="zuanshi_png" x="318.5" y="437.97" anchorOffsetX="0" width="38" anchorOffsetY="0" height="38" locked="true"/>
+	<e:Label text="购买车辆使用暗拍方式，您对心爱的车辆竞拍一个价格，T+1个工作日后会用系统邮件通知您是否成功拍下该车辆。" x="215.5" y="135.01" bold="true" textAlign="left" strokeColor="0x3A1F0A" anchorOffsetX="0" width="699" anchorOffsetY="0" height="60.66" size="20" verticalAlign="middle" lineSpacing="8" textColor="0x83532c"/>
+	<e:Label text="800.000" x="359.62" y="441.97" textAlign="right" strokeColor="0x4c2d0d" anchorOffsetX="0" width="144" anchorOffsetY="0" height="34.99" size="24" verticalAlign="middle" lineSpacing="8" stroke="2" textColor="0xFFFFFF"/>
+	<e:Image id="btnBorder1" source="carBorder_png" x="215.5" y="241.19" touchEnabled="false" locked="true"/>
+	<e:Image id="btnBorder2" source="carBorder_png" x="355.7" y="241.19" touchEnabled="false" locked="true"/>
+	<e:Image id="btnBorder3" source="carBorder_png" x="495.5" y="241.19" touchEnabled="false" locked="true"/>
+	<e:Image id="btnBorder4" source="carBorder_png" x="635.7" y="241.19" touchEnabled="false" locked="true"/>
+	<e:Image id="btnBorder5" source="carBorder_png" x="775.5" y="241.19" touchEnabled="false" locked="true"/>
+	<e:EditableText width="681.33" height="34.67" text="" x="227" y="381.3" anchorOffsetX="0" anchorOffsetY="0" textColor="0xfdebc3" prompt="点击输入" textAlign="center" promptColor="0xfdebc3" maxChars="7"/>
+</e:Skin>

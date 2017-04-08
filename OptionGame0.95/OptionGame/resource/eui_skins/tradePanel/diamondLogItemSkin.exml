@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.diamondLogItemSkin" width="739" height="98" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="tradeItem_png" x="0" y="0" locked="true"/>
+	<e:Image id="priceIco" source="inIco_png" x="8.76" y="9" locked="true"/>
+	<e:Label text="订单号：" x="379.67" y="8.67" textColor="0xFFFFFF" strokeColor="0x573C21" stroke="2" size="18" anchorOffsetX="0" width="72.83" textAlign="right"/>
+	<e:Image id="gold" source="zuanshi_png" x="555" y="46.2" anchorOffsetX="0" width="35" anchorOffsetY="0" height="35" locked="true"/>
+	<e:Label id="tradeName" text="银矿石" x="92.98" y="6.99" textColor="0xffffff" strokeColor="0x2e0000" stroke="2" size="20" anchorOffsetX="0" width="114.33" textAlign="left"/>
+	<e:Label id="tradeId" text="392019001" x="451.68" y="11.07" textColor="0xFFFFFF" strokeColor="0x573c21" stroke="2" size="16" anchorOffsetX="0" width="107.93" textAlign="left"/>
+	<e:Label id="tradeTime" text="2017-3-12 09:12" x="564.2" y="9.32" textColor="0xFFFFFF" strokeColor="0x573c21" stroke="2" size="16" anchorOffsetX="0" width="153.53" textAlign="center"/>
+	<e:Label id="text" text="购买车辆一辆" x="98.78" y="52" strokeColor="0x4e2606" size="18" anchorOffsetX="0" width="311.53" textAlign="left" textColor="0xfff3c1" stroke="2"/>
+	<e:Label id="price" text="-31,888" x="596" y="50.16" strokeColor="0x450303" size="22" anchorOffsetX="0" width="114.2" textAlign="right" anchorOffsetY="0" height="29.67" verticalAlign="middle" stroke="2" textColor="0xff2103"/>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.carItemContSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="blackBg_png" x="0" y="0" width="1136" height="640" locked="true" visible="false"/>
+	<e:Image source="carRentalPanelBg2_png" x="403" y="91.83"/>
+	<e:Image id="carIco" source="carLongIco1_png" x="464.5" y="119.99"/>
+    <e:Image source="zuanshi_png" x="436.17" y="354.34" anchorOffsetX="0" width="38.34" anchorOffsetY="0" height="38.34"/>
+	<e:Image id="btn" x="410.75" y="420.33" anchorOffsetX="0" width="314" source="btn_queren_short_png"/>
+	<e:Label id="carNum" text="金融城AAA215b" x="449.24" y="275.33" strokeColor="0x41210b" stroke="2" size="20" anchorOffsetX="0" width="237.53" textAlign="center" textColor="0xffffff"/>
+	<e:Label id="carPrice" text="1000000" x="473.15" y="364.33" strokeColor="0x41210b" stroke="2" size="20" anchorOffsetX="0" width="189.2" textAlign="center" textColor="0xffffff"/>
+</e:Skin>

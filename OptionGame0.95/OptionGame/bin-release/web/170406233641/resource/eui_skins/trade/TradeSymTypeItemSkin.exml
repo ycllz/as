@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.tradeSymTypeItemSkin" width="412" height="53" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="img_item_png" x="0" y="0"/>
+	<e:Image id="seleted" source="img_itemseleted_png" x="0" y="0"/>
+	<e:Image source="gold_png" x="277" y="8.5" anchorOffsetX="0" width="36" anchorOffsetY="0" height="36"/>
+	<e:Label id="txt_type" text="100g/箱" x="15.76" y="15.5" size="20" anchorOffsetX="0" width="134" anchorOffsetY="0" height="24" border="false" strokeColor="0x41210b" textColor="0xffffff" stroke="2" verticalAlign="middle"/>
+	<e:Label id="txt_cost" text="100.000" x="313" y="14.5" size="20" anchorOffsetX="0" width="87.5" anchorOffsetY="0" height="25" textAlign="left" textColor="0xffffff" stroke="2" strokeColor="0x41210b" verticalAlign="middle"/>
+</e:Skin>

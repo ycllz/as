@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.depotItemSkin" width="310" height="116" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15ab60871d8"/>
+	<e:Image id="itemBg" source="itemBg_png" x="0" y="0" locked="true"/>
+	<e:Image id="icoBg" source="icoBg_png" x="8" y="8" locked="true"/>
+	<e:Image id="ico" source="ico_1_png" x="8" y="8" locked="true"/>
+	<e:Image id="gold" source="gold_png" x="115.35" y="77.43" anchorOffsetX="0" width="30.33" anchorOffsetY="0" height="30.33"/>
+	<e:Label id="tradeName" text="银矿石" x="120" y="16.4" anchorOffsetX="0" width="108" size="20" verticalAlign="middle" textAlign="left" strokeColor="0x41210b" stroke="2" textColor="0xfff3bb"/>
+	<e:Label id="unit" text="8.5kg" x="196.75" y="15.67" anchorOffsetX="0" width="96" size="20" verticalAlign="middle" textAlign="right" strokeColor="0x41210b" stroke="2" textColor="0xfff3bb"/>
+	<e:Label id="price" text="999,999" x="149.77" y="82.6" anchorOffsetX="0" width="96" size="20" verticalAlign="middle" textAlign="left" strokeColor="0x41210b" stroke="2" textColor="0xffffff"/>
+	<e:Label id="text" text="买跌10箱子" x="117" y="51.2" anchorOffsetX="0" width="183" size="18" verticalAlign="middle" textAlign="left" strokeColor="0x41210b" stroke="2" textColor="0x6ff426"/>
+</e:Skin>

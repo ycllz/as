@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.tradePanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="tradeBg_png" y="56.5" width="780" scale9Grid="30,100,30,100" horizontalCenter="0" locked="true"/>
+	<e:Image id="tab2" x="368" y="64" scaleX="1" scaleY="1" source="tab_5_0_png"/>
+	<e:Image id="tab1" x="193" y="64" scaleX="1" scaleY="1" source="tab_4_0_png"/>
+	<e:Image id="btn_close" source="btn_close_png" x="892" y="66"/>
+	<e:Scroller width="739" height="429.63" x="198.5" y="131.47" anchorOffsetY="0" bounces="true">
+		<e:Group id="content" width="739" anchorOffsetY="0" height="594.3">
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

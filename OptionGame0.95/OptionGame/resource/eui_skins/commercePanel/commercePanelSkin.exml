@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.commercePanelSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="blackBg_png" x="0" y="0" width="1136" height="640" locked="true" visible="false"/>
+	<e:Image source="commerceBg_png" x="118" y="49.5" locked="true"/>
+	<e:Image id="btn_close" source="btn_close_png" x="962" y="58" locked="true"/>
+	<e:Label text="橘子的商会" x="348" y="72" size="26" strokeColor="0x643c13" stroke="1" anchorOffsetX="0" width="496" textAlign="center" locked="true"/>
+	<e:Image id="vtab1" source="tab_coutDiamond_1_png" x="128" y="144" locked="true"/>
+	<e:Image id="vtab2" source="tab_coutGold_0_png" x="128" y="345" locked="true"/>
+	<e:Image id="tab2" source="tab_gaikuo_0_png" x="590.5" y="162"/>
+	<e:Image id="tab1" source="tab_zonglan_1_png" x="214.5" y="162"/>
+	<e:Image source="btn_zhaomu_png" x="731.15" y="493.99"/>
+	<e:Image source="btn_fuzhi_png" x="486.51" y="506.99"/>
+	<e:Image id="ico1" source="zuanshi_png" x="309.33" y="122" anchorOffsetX="0" width="32" anchorOffsetY="0" height="32"/>
+	<e:Image id="ico2" source="zuanshi_png" x="593.34" y="122" anchorOffsetX="0" width="32" anchorOffsetY="0" height="32"/>
+	<e:Label text="100.000" x="344.4" y="129.33" size="20" stroke="2" strokeColor="0x4c2d0d" anchorOffsetX="0" width="140" textAlign="left" textColor="0xffffff"/>
+	<e:Label text="100.000" x="632.02" y="129.33" size="20" stroke="2" strokeColor="0x4C2D0D" anchorOffsetX="0" width="140" textAlign="left" textColor="0xFFFFFF"/>
+	<e:Label text="100人" x="884.68" y="129.33" size="20" stroke="2" strokeColor="0x4C2D0D" anchorOffsetX="0" width="93" textAlign="center" textColor="0xFFFFFF"/>
+	<e:Label text="A2290" x="324.84" y="521.88" textColor="0xFFEA00" size="20" stroke="2" strokeColor="0x4C2D0D" anchorOffsetX="0" width="154.8" textAlign="center"/>
+	<e:Scroller width="779" height="221.21" x="213.93" y="254.89" anchorOffsetY="0">
+		<e:Group id="content" anchorOffsetX="0" width="1057.58" anchorOffsetY="0" height="815.15"/>
+	</e:Scroller>
+</e:Skin>

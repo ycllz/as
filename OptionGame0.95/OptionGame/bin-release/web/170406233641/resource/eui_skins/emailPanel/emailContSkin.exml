@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.emailContSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="blackBg_png" x="0" y="0" anchorOffsetX="0" width="1136" anchorOffsetY="0" height="640" visible="false"/>
+	<e:Image source="emailContBg_png" x="351" y="79.5"/>
+	<e:Image id="btnClose" source="btn_close_png" x="724.4" y="87.09"/>
+	<e:Image source="gold_png" x="372.87" y="405.76" anchorOffsetX="0" width="54.24" anchorOffsetY="0" height="54.24"/>
+	<e:Image source="btn_delete_png" x="359.48" y="478.35"/>
+	<e:Image source="btn_lingqu_png" x="571.04" y="478.35"/>
+	<e:Label id="title" text="租车行购车竞拍成功！" x="421.2" y="103.09" textColor="0xFFFFFF" strokeColor="0x320000" stroke="2" size="22" anchorOffsetX="0" width="293.6" textAlign="center"/>
+    <e:Label id="cont" text="2017/3/22 18:30" x="372.87" y="154.92" textColor="0x320000" strokeColor="0x320000" size="20" anchorOffsetX="0" width="390.57" textAlign="left" anchorOffsetY="0" height="223.52"/>
+    <e:Label id="price" text="金币X100.000" x="432.82" y="414.88" textColor="0xffec05" strokeColor="0x452206" stroke="2" size="20" anchorOffsetX="0" width="183.66" anchorOffsetY="0" height="36" textAlign="left" verticalAlign="middle"/>
+</e:Skin>

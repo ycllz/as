@@ -1,0 +1,11 @@
+// TypeScript file
+
+core 目录说明：
+
+base 核心组建
+event 全局事件
+global 全局数据
+manager 全局事件管理
+net 网络通信
+proto 网络通信的序列化反序列化
+utils 工具

@@ -1,10 +1,10 @@
 
 git add .
 git commit -m "说明"
-git remote add origin https://github.com/ycllz/as.git
-git push -u origin master
+git remote add ycllz https://github.com/ycllz/as.git
+git push -u ycllz master
 
 
 git add .
 git commit -m "说明"
-git push -u origin master
+git push -u ycllz master
